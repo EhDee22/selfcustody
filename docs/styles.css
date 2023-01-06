@@ -205,7 +205,6 @@ body {
 /* Hero Section CSS*/
 .main {
   background-color: #141414;
-  margin-top: 2rem;
 }
 
 .main__container {
@@ -412,16 +411,16 @@ body {
 /*Services Section CSS*/
 .services1 {
   background: #141414;
-  width: 100%;
-}
-
-.services1_inner {
   display: flex;
   justify-self: center;
   text-align: center;
   height: auto;
   margin: 0 auto;
-  width: 80%;
+  width: 100%;
+}
+
+.services1_inner {
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -430,7 +429,6 @@ body {
   display: flex;
   background-color: #fff;
   background-size: 100%;
-  margin-top: 8rem;
   margin-bottom: 5rem;
   font-size: 1.5rem;
   font-weight: 100;
@@ -529,7 +527,6 @@ body {
   .services1_inner {
     font-size: 1rem;
     margin-top: 4rem;
-    margin-left: auto;
     width: 90%;
   }
 }
@@ -537,18 +534,6 @@ body {
 @media screen and (max-width: 880px) {
   .services {
     height: 1600px;
-  }
-
-  .services1 h1 {
-    font-size: 1.2rem;
-    margin-top: 18rem;
-    width: 90%;
-  }
-}
-
-@media screen and (max-width: 660px) {
-  .services1 h1 {
-    margin-top: 10rem;
   }
 }
 
@@ -559,7 +544,6 @@ body {
 
   .services1 h1 {
     font-size: 1.2rem;
-    margin-top: 12rem;
     width: 90%;
   }
 
