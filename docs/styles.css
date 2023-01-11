@@ -763,7 +763,7 @@ body {
   grid-template-columns: 1fr;
   align-items: center-top;
   margin: 0 auto;
-  height: 50vh;
+  height: 100vh;
   background-color: #141414;
   width: 100%;
   max-width: 1200px;
@@ -772,7 +772,7 @@ body {
 }
 
 .guide__content h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   border-radius: 6px;
   background-color: rgb(255, 255, 255);
   text-align: center;
