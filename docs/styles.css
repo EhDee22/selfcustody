@@ -205,6 +205,7 @@ body {
 /* Hero Section CSS*/
 .main {
   background-color: #141414;
+  padding-top: 2rem;
 }
 
 .main__container {
@@ -378,6 +379,18 @@ body {
   
 }
 
+@media screen and (max-width: 580px) {
+  .main__content h2 {
+    font-size: 3rem;
+    max-width: 80%;
+  }
+
+  .main__content h2 .Risk {
+    font-size: 3rem;
+    max-width: 80%;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .main__content h1 {
     font-size: 3rem;
@@ -406,6 +419,11 @@ body {
     padding: 12px 36px;
     margin: 2.5rem 0;
   }
+
+  #main__img {
+    height: 80%;
+    width: 80%;
+  }
 }
 
 /*Services Section CSS*/
@@ -420,10 +438,14 @@ body {
 }
 
 .services1_inner {
-  width: 50%;
+  position: relative;
+  top: 60px;
+  left: 10px;
+  max-width: 50%;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .services1 h1 {
@@ -519,6 +541,19 @@ body {
   cursor: pointer;
 }
 
+@media screen and (max-width: 1442px) {
+  .services1_inner {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 1004px) {
+  .services1_inner {
+    height: 220px;
+    margin-top: 6rem;
+  }
+}
+
 @media screen and (max-width: 960px) {
   .services {
     height: 1100px;
@@ -534,6 +569,19 @@ body {
 @media screen and (max-width: 880px) {
   .services {
     height: 1600px;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .services1_inner {
+    height: 260px;
+    margin-top: 18rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .services1_inner {
+    margin-bottom: 4rem;
   }
 }
 
