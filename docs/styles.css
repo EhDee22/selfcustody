@@ -751,3 +751,63 @@ body {
     width: 100%;
   }
 }
+
+/*Guides Page*/
+.guide {
+  background-color: #141414;
+  padding-top: 2rem;
+}
+
+.guide__container {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center-top;
+  margin: 0 auto;
+  height: 50vh;
+  background-color: #141414;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 50px;
+  padding-top: 4rem;
+}
+
+.guide__content h1 {
+  font-size: 4rem;
+  border-radius: 6px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  width: 20rem;
+  align-self: center;
+}
+
+.guide__content h2 {
+  padding-top: 4rem;
+  padding-bottom: 6px;
+  font-size: 1.5rem;
+  background-color: rgb(255, 255, 255);
+  background-image: linear-gradient(
+    to top,
+    #dddbdb 0%,
+    rgb(255, 255, 255) 100%
+  );
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  border-bottom: 1.5px solid #fff;
+  max-width: auto;
+}
+
+.guide__content p {
+  text-indent: 1rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.guide__content a {
+  color: #fff;
+  text-decoration: none
+}
