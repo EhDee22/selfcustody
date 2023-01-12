@@ -825,6 +825,7 @@ body {
 .devices {
   background-color: #141414;
   padding-top: 2rem;
+  overflow-x: auto;
 }
 
 .device__container {
@@ -849,6 +850,7 @@ body {
   width: 28rem;
   align-self: center;
   padding: 8px;
+  max-width: 70%;
 }
 
 .device__content h2 {
