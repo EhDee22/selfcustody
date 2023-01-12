@@ -102,7 +102,7 @@ body {
 
 .navbar__links:hover {
   color: rgb(255, 255, 255);
-  padding-bottom: 7px;
+  transform: translateY(-3px);
   transition: all 0.3s ease;
 }
 
@@ -814,5 +814,10 @@ body {
 .guide__content a {
   color: #fff;
   text-decoration: none
+}
+
+.guide__content p:hover {
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
 }
 
