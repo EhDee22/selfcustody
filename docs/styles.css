@@ -821,3 +821,86 @@ body {
   transition: all 0.3s ease;
 }
 
+/* Devices Page*/
+.devices {
+  background-color: #141414;
+  padding-top: 2rem;
+}
+
+.device__container {
+  align-items: center-top;
+  margin: auto;
+  height: auto;
+  background-color: #141414;
+  width: 100%;
+  max-width: 1200px;
+  padding-top: 4rem;
+}
+
+.device__content {
+  padding-bottom: 1rem;
+}
+
+.device__content h1 {
+  font-size: 2.5rem;
+  border-radius: 6px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  width: 28rem;
+  align-self: center;
+  padding: 8px;
+}
+
+.device__content h2 {
+  padding-top: 4rem;
+  padding-bottom: 6px;
+  font-size: 2rem;
+  background-color: rgb(255, 255, 255);
+  background-image: linear-gradient(
+    to top,
+    #dddbdb 0%,
+    rgb(255, 255, 255) 100%
+  );
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  border-bottom: 1.5px solid #fff;
+  max-width: auto;
+}
+
+.device__content h2 a {
+  font-size: 2.5rem;
+  background-image: linear-gradient(to top, #ff620d 0%, #ffb13b 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.device__content p {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #fff;
+  line-height: 26px;
+
+}
+
+.device__content p b {
+  margin-top: 1rem;
+  font-size: 18px;
+  background-image: linear-gradient(to top, #ff6b1c 0%, #ffb13b 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  line-height: 26px;
+}
+
+.device__content a {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #fff;
+  line-height: 26px;
+}
