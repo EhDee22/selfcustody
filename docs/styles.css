@@ -110,7 +110,7 @@ body {
   .navbar__container {
     display: flex;
     justify-content: space-between;
-    height: 80px;
+    height: 8vh;
     z-index: 1;
     width: 100%;
     padding: 0;
