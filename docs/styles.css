@@ -468,6 +468,7 @@ body {
   align-items: center;
   height: auto;
   width: 100%;
+  overflow-x: hidden;
 }
 
 .services1 {
@@ -480,6 +481,8 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
 }
 
 .services__card {
@@ -563,7 +566,7 @@ body {
 
 @media screen and (max-width: 960px) {
   .services {
-    height: 1100px;
+    height: 1300px;
   }
 
   .services1_inner {
@@ -575,7 +578,7 @@ body {
 
 @media screen and (max-width: 880px) {
   .services {
-    height: 1600px;
+    height: 140vh;
   }
 }
 
@@ -616,6 +619,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
+  overflow-x: hidden;
 }
 
 /* dot instead of # */
@@ -676,8 +680,9 @@ body {
 }
 
 .social__media {
-  max-width: 1200px;
+  max-width: 120vh;
   width: 100%;
+  overflow-x: hidden;
 }
 
 .social__media--wrap {
