@@ -324,7 +324,7 @@ body {
 }
 
 .main__img--container {
-  text-align: left;
+  text-align: center;
 }
 
 #main__img {
@@ -382,7 +382,7 @@ body {
 @media screen and (max-width: 580px) {
   .main__content h2 {
     font-size: 3rem;
-    max-width: 80%;
+    max-width: 90%;
   }
 
   .main__content h2 .Risk {
