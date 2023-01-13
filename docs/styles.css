@@ -11,7 +11,7 @@ body {
 
 .navbar {
   background: #0e0e0e;
-  height: 80px;
+  height: 8vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,7 +19,6 @@ body {
   position: sticky;
   top: 0;
   z-index: 999;
-  max-width: 100%;
 }
 
 .navbar__container {
