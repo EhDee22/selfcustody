@@ -700,6 +700,7 @@ body {
 }
 
 .website__right {
+  display: flex;
   color: #fff;
   max-width: 100%;
 }
