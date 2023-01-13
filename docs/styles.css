@@ -205,6 +205,8 @@ body {
 .main {
   background-color: #141414;
   padding-top: 2rem;
+  padding-right: 1vh;
+  padding-left: 2vh;
 }
 
 .main__container {
@@ -218,7 +220,6 @@ body {
   z-index: 1;
   width: 100%;
   max-width: 1300px;
-  padding: 0 50px;
 }
 
 .main__content h1 {
