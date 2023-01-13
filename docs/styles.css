@@ -205,7 +205,6 @@ body {
 .main {
   background-color: #141414;
   padding-top: 2rem;
-  width: 100%;
 }
 
 .main__container {
@@ -339,9 +338,9 @@ body {
     grid-template-columns: auto;
     align-items: center;
     justify-self: center;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
-    height: 50vh;
+    height: 70vh;
   }
 
   .main__content {
@@ -467,22 +466,12 @@ body {
   flex-direction: column;
   align-items: center;
   height: auto;
-  width: 100%;
-  overflow-x: hidden;
-}
-
-.services1 {
-  background: #141414;
-  width: 100%;
-  margin-bottom: 2vh;
 }
 
 .services__container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 2vh;
-  margin-bottom: 2vh;
 }
 
 .services__card {
@@ -566,7 +555,7 @@ body {
 
 @media screen and (max-width: 960px) {
   .services {
-    height: 1300px;
+    height: 1100px;
   }
 
   .services1_inner {
@@ -578,14 +567,14 @@ body {
 
 @media screen and (max-width: 880px) {
   .services {
-    height: 140vh;
+    height: 1600px;
   }
 }
 
 @media screen and (max-width: 786px) {
   .services1_inner {
-    height: auto;
-    margin-top: 20rem;
+    height: 260px;
+    margin-top: 12rem;
   }
 }
 
@@ -618,8 +607,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  overflow-x: hidden;
 }
 
 /* dot instead of # */
@@ -680,9 +667,8 @@ body {
 }
 
 .social__media {
-  max-width: 120vh;
+  max-width: 1200px;
   width: 100%;
-  overflow-x: hidden;
 }
 
 .social__media--wrap {
