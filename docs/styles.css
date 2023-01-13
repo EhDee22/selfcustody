@@ -11,7 +11,7 @@ body {
 
 .navbar {
   background: #0e0e0e;
-  height: 80px;
+  height: 8vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -102,7 +102,7 @@ body {
 
 .navbar__links:hover {
   color: rgb(255, 255, 255);
-  padding-bottom: 7px;
+  transform: translateY(-3px);
   transition: all 0.3s ease;
 }
 
@@ -110,10 +110,9 @@ body {
   .navbar__container {
     display: flex;
     justify-content: space-between;
-    height: 80px;
+    height: 8vh;
     z-index: 1;
     width: 100%;
-    max-width: 1300px;
     padding: 0;
   }
 
@@ -137,7 +136,7 @@ body {
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 99;
-    height: 50vh;
+    height: 60vh;
     font-size: 1.6rem;
   }
 
@@ -750,6 +749,7 @@ body {
     padding: 10px;
     width: 100%;
   }
+
 }
 
 /*Guides Page*/
@@ -763,7 +763,7 @@ body {
   grid-template-columns: 1fr;
   align-items: center-top;
   margin: 0 auto;
-  height: 50vh;
+  height: auto;
   background-color: #141414;
   width: 100%;
   max-width: 1200px;
@@ -771,8 +771,12 @@ body {
   padding-top: 4rem;
 }
 
+.guide__content {
+  padding-bottom: 6rem;
+}
+
 .guide__content h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   border-radius: 6px;
   background-color: rgb(255, 255, 255);
   text-align: center;
@@ -810,4 +814,95 @@ body {
 .guide__content a {
   color: #fff;
   text-decoration: none
+}
+
+.guide__content p:hover {
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
+
+/* Devices Page*/
+.devices {
+  background-color: #141414;
+  padding-top: 2rem;
+  overflow-x: auto;
+}
+
+.device__container {
+  align-items: center-top;
+  margin: auto;
+  height: auto;
+  background-color: #141414;
+  width: 80%;
+  max-width: 1200px;
+  padding-top: 4rem;
+}
+
+.device__content {
+  padding-bottom: 1rem;
+}
+
+.device__content h1 {
+  font-size: 2.5rem;
+  border-radius: 6px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  width: 28rem;
+  align-self: center;
+  padding: 8px;
+  max-width: 70%;
+}
+
+.device__content h2 {
+  padding-top: 4rem;
+  padding-bottom: 6px;
+  font-size: 2rem;
+  background-color: rgb(255, 255, 255);
+  background-image: linear-gradient(
+    to top,
+    #dddbdb 0%,
+    rgb(255, 255, 255) 100%
+  );
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  border-bottom: 1.5px solid #fff;
+  max-width: auto;
+}
+
+.device__content h2 a {
+  font-size: 2.5rem;
+  background-image: linear-gradient(to top, #ff620d 0%, #ffb13b 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.device__content p {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #fff;
+  line-height: 26px;
+
+}
+
+.device__content p b {
+  margin-top: 1rem;
+  font-size: 18px;
+  background-image: linear-gradient(to top, #ff6b1c 0%, #ffb13b 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  line-height: 26px;
+}
+
+.device__content a {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #fff;
+  line-height: 26px;
 }
