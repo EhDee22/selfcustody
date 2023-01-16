@@ -764,13 +764,12 @@ body {
 .guide__container {
   display: grid;
   grid-template-columns: 1fr;
-  align-items: center-top;
+  align-items: center;
   margin: 0 auto;
   height: auto;
   background-color: #141414;
   width: 1200px;
   max-width: 90%;
-  padding: 0 50px;
   padding: 4rem 0 1rem 0;
 }
 
