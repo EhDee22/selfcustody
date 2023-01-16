@@ -541,13 +541,13 @@ body {
 }
 
 @media screen and (max-width: 1442px) {
-  .services1_inner {
+  .services1__inner {
     max-width: 80%;
   }
 }
 
 @media screen and (max-width: 1004px) {
-  .services1_inner {
+  .services1__inner {
     height: 220px;
     margin-top: 6rem;
   }
@@ -558,7 +558,7 @@ body {
     height: 1100px;
   }
 
-  .services1_inner {
+  .services1__inner {
     font-size: 1rem;
     margin-top: 4rem;
     width: 90%;
@@ -572,14 +572,14 @@ body {
 }
 
 @media screen and (max-width: 786px) {
-  .services1_inner {
+  .services1__inner {
     height: 260px;
     margin-top: 12rem;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .services1_inner {
+  .services1__inner {
     margin-bottom: 4rem;
   }
 }
