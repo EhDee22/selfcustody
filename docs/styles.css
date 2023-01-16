@@ -844,6 +844,7 @@ body {
   width: 1200px;
   max-width: 80%;
   padding-top: 4rem;
+  padding: 0 0 1rem 0;
 }
 
 .device__content {
