@@ -437,7 +437,7 @@ body {
 }
 
 .services1__inner {
-  position: grid;
+  position: relative;
   top: 60px;
   left: 10px;
   max-width: 50%;
