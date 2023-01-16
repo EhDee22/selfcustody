@@ -771,7 +771,7 @@ body {
   width: 1200px;
   max-width: 90%;
   padding: 0 50px;
-  padding-top: 4rem;
+  padding: 4rem 0 1rem 0;
 }
 
 .guide__content {
@@ -844,7 +844,6 @@ body {
   width: 1200px;
   max-width: 80%;
   padding-top: 4rem;
-  padding: 0 0 1rem 0;
 }
 
 .device__content {
